@@ -1,0 +1,138 @@
+﻿body {
+    background-image: url(https://www.routes-de-legende.fr/wp-content/uploads/2019/05/fujisan-700x525.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+/*IMAGE AFRIQUE DU SUD + texte*/
+.textmod {
+    background-color: lavender;
+    margin-top: 10px;
+}
+
+.japan {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.japancontent {
+    width: 40%;
+    height: 300px;
+    border: 0px solid;
+    overflow: hidden;
+    cursor: default;
+    margin-left: 412px;
+    border-radius: 55px;
+}
+
+.japanchildcontent {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.jpn {
+    background-image: url(https://ae01.alicdn.com/kf/HTB1P8g0xOCYBuNkHFCcq6AHtVXas/Affiche-d-art-japonais-en-soie-d-cor-d-art-mural.jpg_Q90.jpg_.webp);
+    background-size: cover;
+}
+
+span {
+    display: none;
+    font-size: 35px;
+    color: antiquewhite !important;
+    font-family: Cookie, cursif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: default;
+    text-decoration: none;
+}
+
+.japancontent:hover .japanchildcontent,
+.japancontent:focus .japanchildcontent {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+    .japancontent:hover .japanchildcontent:before,
+    .japancontent:focus .japanchildcontent:before {
+        display: block;
+    }
+
+.japancontent:hover span,
+.japancontent:focus span {
+    display: block;
+}
+
+.japanchildcontent:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*Parti ville*/
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.textverti {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.imgart {
+    border: 0px solid #ffffff;
+    border-radius: 321px;
+}
+
+/*formulaire*/
+
+.formulaire {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align-last: left;
+    width: 32%;
+    margin-top: 40px;
+    background-image: url(https://numpaint.com/wp-content/uploads/2020/08/fuji-china-paint-by-numbers.jpg);
+    background-attachment: fixed;
+    color: lightcoral;
+}
+
+.form {
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+}

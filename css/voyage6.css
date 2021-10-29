@@ -1,0 +1,138 @@
+﻿body {
+    background-image: url(https://www.levert.ma/wp-content/uploads/2020/12/Afrique-du-Sud.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+/*IMAGE AFRIQUE DU SUD + texte*/
+.textmod {
+    background-color: lavender;
+    margin-top: 10px;
+}
+
+.southaf {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.southafcontent {
+    width: 40%;
+    height: 300px;
+    border: 0px solid;
+    overflow: hidden;
+    cursor: default;
+    margin-left: 412px;
+    border-radius: 55px;
+}
+
+.southafchildcontent {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.ads {
+    background-image: url(https://img.peapix.com/12752733176529007567.jpg?attachment&modal);
+    background-size: cover;
+}
+
+span {
+    display: none;
+    font-size: 35px;
+    color: antiquewhite !important;
+    font-family: Cookie, cursif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: default;
+    text-decoration: none;
+}
+
+.southafcontent:hover .southafchildcontent,
+.southafcontent:focus .southafchildcontent {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.southafcontent:hover .southafchildcontent:before,
+.southafcontent:focus .southafchildcontent:before {
+    display: block;
+}
+
+.southafcontent:hover span,
+.southafcontent:focus span {
+    display: block;
+}
+
+.southafchildcontent:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*Parti ville*/
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.textverti {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.imgart {
+    border: 0px solid #ffffff;
+    border-radius: 321px;
+}
+
+/*formulaire*/
+
+.formulaire {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align-last: left;
+    width: 32%;
+    margin-top: 40px;
+    background-image: url(https://afroculture.net/wp-content/uploads/2018/02/Lionel-Smit-artiste-sud-africain-contemporain-1-360x250.jpg);
+    background-attachment: fixed;
+    color:white;
+}
+
+.form {
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+}

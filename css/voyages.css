@@ -1,0 +1,196 @@
+.joko {
+    margin: 0;
+}
+
+
+.bloc{
+ height: 45vw;
+}
+
+.bloc video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+.bloc7{
+    height: 20vh;
+    height: 20%;
+   }
+
+header {
+    background-color: skyblue;
+    width: 100%;
+    color: aqua;
+    font-family: Architects Daughter, cursive;
+}
+.titre {
+    color: azure;
+    font-family: Architects Daughter, cursive;
+    text-align:center;
+    text-decoration:none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul {
+    position: relative;
+    width: 100%;
+    list-style: none outside none;
+    display: table;
+}
+
+    .navbar ul > li {
+        display: table-cell;
+    }
+
+    .navbar ul:before, .navbar ul:after {
+        display: table;
+        content: '';
+        clear: both;
+        /* permet de remettre les li float:left dans le flux */
+    }
+
+.navbar > ul li ul {
+    display: none; /* sous-menu masqués */
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.navbar li:hover > ul {
+    display: block; /* sous-menu affiché */
+    display: table;
+}
+
+/* ----------------------- */
+/* DECORATION */
+.navbar ul { /* niveau 1 */
+    background: transparent;
+}
+
+    .navbar ul ul { /* niveau 2 */
+        background: skyblue;
+    }
+
+        .navbar ul ul ul { /* niveau 3 */
+            background: skyblue;
+        }
+
+.navbar ul { /* niveau 1 */
+    background: transparent;
+}
+
+    .navbar ul ul { /* niveau 2 */
+        background: skyblue;
+    }
+
+        .navbar ul ul ul { /* niveau 3 */
+            background: skyblue;
+        }
+
+    .navbar ul li a {
+        display: block;
+        padding: 10px 15px;
+        color: antiquewhite;
+        text-decoration: none;
+    }
+
+    .navbar ul li:hover > a {
+        background: #20638f;
+        color: #fff;
+    }
+
+    .navbar ul li a {
+        border-right: 0px solid #fff;
+    }
+
+.navbar > ul > li:hover:after,
+.navbar > ul > li > ul > li:hover:after {
+    position: absolute;
+    display: block;
+    content: '';
+    /*triangle */
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 6px 0 6px;
+    border-color: #666 transparent transparent transparent;
+}
+/* ANIMATION */
+.navbar ul li > a {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.navbar ul li:hover > a {
+    padding: 10px 25px;
+}
+
+/*FOOTER*/
+footer {
+    background: skyblue;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+    font-family: Architects Daughter, cursive;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+

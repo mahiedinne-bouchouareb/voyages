@@ -1,0 +1,99 @@
+header {
+    background-color: skyblue;
+    width: 100%;
+    color:aqua;
+    
+}
+.titre {
+    color: azure;
+    font-family: Architects Daughter, cursive;
+    text-align:center;
+}
+
+.joko {
+    margin: 0;
+}
+
+.syndra{
+    background-image:url(https://i.pinimg.com/736x/49/e3/9e/49e39e49491829107a74b598555d822c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+   .midlanegray{
+    text-align: center;
+    color: white;
+    box-shadow: white;
+}
+
+.midlane{
+    text-align: center;
+}
+
+
+.boxminitv{
+    margin-bottom: 0%;
+    margin-top: 1%;
+ width: 100%;
+
+}
+
+video{
+    object-fit: cover
+    ;
+}
+
+.bshadow{
+    font-weight: 900;
+    color: white ;
+    box-shadow: blue;
+    text-shadow: blueviolet;
+}
+
+
+.d1{
+    width: 450px;
+    height: 450px;
+    background-color: #EDEDED;
+    box-shadow: 0px 15px 10px -5px #777;
+    margin: 50px auto;
+    animation: fondu 15s ease-in-out infinite both;
+}
+
+.conteneur1{
+    max-width: 576px;
+    margin: 50px auto;
+}
+
+@keyframes fondu{
+    0%{background-image: url(https://media.istockphoto.com/photos/haedong-yonggungsa-temple-and-haeundae-sea-in-busan-south-korea-picture-id483799458?k=20&m=483799458&s=170667a&w=0&h=20FyEkTHlOyPQVUpOaHEhtrjfSYXdTS5wcbZxnXdes8=);}
+    33.33%{background-image: url(https://www.10wallpaper.com/wallpaper/medium/1405/Korea_Seoul_city_scenery_Photography_Wallpaper_15_medium.jpg);}
+    66.67%{background-image: url(https://www.coree-voyage.com/wp-content/uploads/2018/08/5319306-korea-wallpaper.jpg);}
+    100%{background-image: url(https://i.pinimg.com/originals/a8/47/48/a84748adc7e80abe73f2844bafdfd148.jpg);}
+}
+
+.precore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titre-activite{
+    font-weight:900;
+    color: white;
+}
+
+.centrer {
+    justify-content: center;
+    margin: auto;
+    text-align :center;
+    border: medium solid #EDEDED;
+    width: 50%;
+    border-collapse: collapse;
+    color: white;
+    }
+
+    th, td{
+        border: 1px solid white;
+        padding: 10px;
+    } 

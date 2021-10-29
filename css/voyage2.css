@@ -1,0 +1,196 @@
+.background
+{
+    background-image: url("../imageetvideo/fond2.jpg");
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+   
+  }
+
+.navbarbody {
+ 
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 100px 80px;
+  font-size: 40px;
+  align-items:  center;
+
+} 
+/*.aegypte{
+  color: aliceblue;
+}*/
+a:hover {
+  color: #44c91c;
+}
+.navbarbody a:visited {
+    color:blue;
+}
+
+.navbarbody a:visited:hover {
+    color: #44c91c;
+}
+ 
+  
+
+  /*______________*/
+
+
+  
+
+  .title{
+    width : 100%;
+    height:100px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: aliceblue;
+    
+  }
+
+ 
+  .articles{
+    width : 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    font-weight: bold;
+    color:azure;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px; 
+    margin: auto;
+    background-color: rgb(255,255,255, 0.2);
+    padding-top: 30px;
+  }
+
+.perssone{
+  width: 85%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  border-radius: 50px;
+  padding-top: 30px;
+}
+
+.Héraklion{
+  text-align:right;
+  align-items: center;
+}
+.grece2{
+  margin: auto;
+  display:flex;
+  justify-content: space-around;
+  color: azure;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.grece3{
+  margin: auto;
+  display:flex;
+  justify-content: flex-start;
+  width: 55%;
+  color: azure;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.imagegrece{
+  margin: auto;
+  display: flex;
+  justify-content:space-around;
+  border:0px solid;
+  border-radius: 50%;
+  box-shadow: 10px 10px 6px 4px gray ;
+
+}
+.para{
+  width: 80%;
+  height: auto;
+  text-align:justify;
+  
+
+}
+
+.videopyramide{
+  display:flex;
+  justify-content: space-around;
+  margin:auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  border:0px solid;
+  border-radius: 50px;
+}
+
+.carte{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #fcfcfc;
+}
+footer{
+  background:skyblue;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+}
+.socials a:hover i{
+  color: aqua;
+}
+.haut {
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+}

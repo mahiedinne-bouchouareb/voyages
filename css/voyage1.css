@@ -1,0 +1,133 @@
+.background
+{
+    background-image: url("../imageetvideo/fond.jpg");
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+   
+  }
+
+.navbarbody {
+ 
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 100px 80px;
+  font-size: 40px;
+  align-items:  center;
+
+}
+/*.aegypte{
+  color: aliceblue;
+}*/
+a:hover {
+  color: #44c91c;
+}
+.navbarbody a:visited {
+    color: blue;
+}
+
+.navbarbody a:visited:hover {
+    color: #44c91c;
+}
+ 
+  
+
+  /*______________*/
+
+
+  
+
+.title{
+width : 100%;   
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 100px;
+color: aliceblue;
+    
+}
+
+  
+.articles{
+width : 85%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between; 
+font-weight: bold;
+color:azure;
+font-size: 20px;
+font-weight: bold;
+border-radius: 50px; 
+margin: auto;
+background-color: rgb(255,255,255, 0.2);
+ 
+}
+
+
+
+.perssone{
+  width: 85%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.gize{
+  text-align:right;
+  align-items: center;
+}
+.caire2{
+  display:flex;
+  justify-content: space-around;
+  color: azure;
+}
+.imagecaire{
+  border:0px solid;
+  border-radius: 50px;
+
+}
+.para{
+  width: 80%;
+  height: auto;
+  text-align:justify;
+  
+
+}
+
+.videopyramide{
+  display:flex;
+  justify-content: space-around;
+  margin:auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  border:0px solid;
+  border-radius: 50px;
+}
+.carte{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.html { 
+  scroll-behavior: smooth;
+}
+/*#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}*/
+.btn{
+  color: azure;
+}
+.haut{
+    background-color:white;
+    color:black;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:2px;
+}
